@@ -1,7 +1,12 @@
 Python-Code zur Erstellung von Wahrscheinlichkeitskartne für Hangrutsche mittels maschinellem Lernen (RandomForest, GradientBoost)
 
 
-Import der erforderlichen Bibliotheken:
+Import der erforderlichen Bibliotheken: sklearn.ensemble import RandomForestClassifier
+sklearn
+rasterio
+rioxarray
+numpy
+matplotlib
 
 Das Skript beginnt mit dem Import von erforderlichen Python-Bibliotheken wie sklearn für maschinelles Lernen, rasterio für die Verarbeitung von Rasterdaten, und numpy für numerische Operationen. Diese Bibliotheken sind notwendig, um die Algorithmen zu implementieren und die geografischen Daten zu manipulieren.
 Einlesen der Rasterdaten:
